@@ -9,11 +9,11 @@
 </head>
 <body>
     <div class="wrapper">
-        <h2 class="question">Will you go out with me?</h2>
+        <h2 class="question">Pwede tka sumbagon?</h2>
         <img class="gif" alt="gif" src="https://media.giphy.com/media/FTGah7Mx3ss04PcasF/giphy.gif"/>
         <div class="btn-group">
-            <button class="yes-btn">Yes</button>
-            <button class="no-btn">No</button>
+            <button class="pwedee-btn">pwedee</button>
+            <button class="dli ko-btn">dli ko</button>
         </div>
     </div>
     <script src="script.js"></script>
@@ -25,11 +25,11 @@ script.js
 const wrapper = document.querySelector(".wrapper");
 const question = document.querySelector(".question");
 const gif = document.querySelector(".gif");
-const yesBtn = document.querySelector(".yes-btn");
-const noBtn = document.querySelector(".no-btn");
+const yesBtn = document.querySelector(".pwedee-btn");
+const noBtn = document.querySelector(".dli ko-btn");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "Yay, see you on the 18th!";
+  question.innerHTML = "Yay, okayy looking forward!";
   gif.src =
     "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
 });
